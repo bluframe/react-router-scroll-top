@@ -1,6 +1,6 @@
 {
   "name": "react-router-scroll-top",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Edoardo L'Astorina",
   "license": "MIT",
@@ -47,7 +47,12 @@
       ".(js|jsx)": "<rootDir>/node_modules/babel-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(js|jsx)$",
-    "moduleFileExtensions": ["js", "jsx"]
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
   },
-  "files": ["lib"]
+  "files": [
+    "lib"
+  ]
 }
