@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "main": "index.js",
   "author": "Edoardo L'Astorina",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bluframe/react-router-scroll-top.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "webpack",
@@ -47,14 +51,9 @@
       ".(js|jsx)": "<rootDir>/node_modules/babel-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(js|jsx)$",
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ]
+    "moduleFileExtensions": ["js", "jsx"]
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "keywords": [
     "react",
     "react router",
