@@ -1,8 +1,12 @@
 {
   "name": "react-router-scroll-top",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "Edoardo L'Astorina",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bluframe/react-router-scroll-top.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "webpack",
