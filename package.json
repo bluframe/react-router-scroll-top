@@ -1,5 +1,6 @@
 {
   "name": "react-router-scroll-top",
+  "description": "An easy scroll to top component based on the React Router Scroll Restoration Example",
   "version": "0.1.0",
   "main": "index.js",
   "author": "Edoardo L'Astorina",
