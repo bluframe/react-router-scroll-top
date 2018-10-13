@@ -5,7 +5,7 @@ import ScrollToTop from "./ScrollToTop"
 
 Enzyme.configure({ adapter: new Adapter() })
 
-jest.mock("./", () => {})
+jest.mock(".", () => ({}))
 
 describe("ScrollToTop", () => {
   it("renders", () => {
