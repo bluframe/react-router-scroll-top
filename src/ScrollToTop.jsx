@@ -1,9 +1,9 @@
 // @flow
 
 import React, { Fragment } from "react"
-import { type Props } from "./"
+import { type Props } from "."
 
-class ScrollToTop extends React.Component<Props> {
+class ScrollToTop extends React.PureComponent<Props> {
   componentDidUpdate: (prevProps: Props) => void
 
   props: Props

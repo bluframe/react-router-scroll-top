@@ -1,4 +1,4 @@
-import { componentDidUpdate } from "./"
+import { componentDidUpdate } from "."
 import { spy } from "sinon"
 
 const TOP = 0
