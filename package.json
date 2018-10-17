@@ -2,7 +2,8 @@
   "name": "react-router-scroll-top",
   "description": "An easy scroll to top component based on the React Router Scroll Restoration Example",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/react-router-scroll-top.cjs.js",
+  "module": "dist/react-router-scroll-top.esm.js",
   "author": "Edoardo L'Astorina",
   "repository": {
     "type": "git",
@@ -10,19 +11,19 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "clean": "rm -fr lib/",
+    "build": "rollup -c",
+    "clean": "rm -fr dist/",
     "prepublish": "yarn test && yarn run clean && yarn run build",
     "test": "eslint src/ && flow && jest --silent --coverage"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^8.0.2",
-    "babel-jest": "^21.2.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-jest": "^23.6.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.17.0",
@@ -39,8 +40,9 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-test-renderer": "^16.1.1",
-    "sinon": "^4.1.2",
-    "webpack": "^3.8.1"
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "sinon": "^4.1.2"
   },
   "peerDependencies": {
     "react": "^16.2.0",
@@ -58,7 +60,7 @@
     ]
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "keywords": [
     "react",
