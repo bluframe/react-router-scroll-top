@@ -57,6 +57,7 @@ module.exports = {
     "react/forbid-component-props": [0],
     "react/jsx-curly-brace-presence": [0],
     "no-console": 1,
+    "no-empty-function": 0,
     "no-inner-declarations": 1,
     "no-invalid-this": 0,
     indent: ["error", 2],
