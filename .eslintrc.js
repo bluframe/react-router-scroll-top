@@ -51,6 +51,7 @@ module.exports = {
     "react/no-redundant-should-component-update": 0,
     "react/jsx-wrap-multilines": 0,
     "react/jsx-closing-tag-location": 0,
+    "react/jsx-filename-extension": 0,
     "react/jsx-no-undef": [1, { allowGlobals: true }],
     "react/prop-types": [0],
     "react/forbid-component-props": [0],
