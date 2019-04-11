@@ -35,3 +35,6 @@ And if you use `npm`
 ```shell
 npm install react-router-scroll-top --save
 ```
+
+## Props
+ - `delay` _(number) : A delay before scroll to top function is run. Default `0`
