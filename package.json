@@ -1,7 +1,7 @@
 {
   "name": "react-router-scroll-top",
   "description": "An easy scroll to top component based on the React Router Scroll Restoration Example",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/react-router-scroll-top.cjs.js",
   "module": "dist/react-router-scroll-top.esm.js",
   "author": "Edoardo L'Astorina",
