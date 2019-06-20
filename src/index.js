@@ -18,16 +18,17 @@ type Location = {
 
 export type Props = {
   children?: React$Node,
-  location: Location
+  location: Location,
+  delay: number
 }
 
 export const componentDidUpdate = function componentDidUpdate(
   prevProps: Props
 ) {
-  const { location }: Props = this.props
+  const { location, delay }: Props = this.props
 
   if (location !== prevProps.location) {
-    window.scrollTo(LEFT, TOP)
+    setTimeout(() => window.scrollTo(LEFT, TOP), delay)
   }
 }
 
