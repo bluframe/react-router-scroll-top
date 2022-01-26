@@ -17,7 +17,7 @@ describe("ScrollToTop", () => {
   it("renders children", () => {
     const wrapper = shallow(
       <ScrollToTop>
-        <Fragment />
+        <></>
       </ScrollToTop>
     )
 

@@ -1,7 +1,7 @@
 // @flow
 
-import React, { Fragment } from "react"
 import { type Props } from "."
+import React from "react"
 
 class ScrollToTop extends React.PureComponent<Props> {
   componentDidUpdate: (prevProps: Props) => void
@@ -11,9 +11,7 @@ class ScrollToTop extends React.PureComponent<Props> {
   render() {
     const { children } = this.props
 
-    return <Fragment>
-      {children}
-    </Fragment>
+    return <>{children}</>
   }
 }
 
