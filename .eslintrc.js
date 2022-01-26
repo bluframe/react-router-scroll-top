@@ -16,7 +16,7 @@ module.exports = {
     "eslint:all",
     "plugin:react/all",
     "plugin:flowtype/recommended",
-    "prettier"
+    "plugin:prettier/recommended"
   ],
   parser: "babel-eslint",
   parserOptions: {
@@ -26,19 +26,10 @@ module.exports = {
     },
     sourceType: "module"
   },
-  plugins: ["react", "flowtype", "html", "prettier"],
+  plugins: ["react", "flowtype", "html"],
   rules: {
     "no-unused-vars": 1,
     "linebreak-style": ["error", "unix"],
-    quotes: [
-      "error",
-      "double",
-      {
-        allowTemplateLiterals: true,
-        avoidEscape: true
-      }
-    ],
-    semi: ["error", "never"],
     "react/jsx-uses-vars": 1,
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
@@ -56,12 +47,12 @@ module.exports = {
     "react/prop-types": [0],
     "react/forbid-component-props": [0],
     "react/jsx-curly-brace-presence": [0],
+    "react/jsx-one-expression-per-line": [0],
+    "react/jsx-no-useless-fragment":[0],
     "no-console": 1,
     "no-empty-function": 0,
     "no-inner-declarations": 1,
     "no-invalid-this": 0,
-    indent: ["error", 2],
-    "max-len": [0],
     "quote-props": 0,
     "object-curly-newline": 0,
     "dot-location": [1, "property"],

@@ -4,4 +4,6 @@ module.system.node.resolve_dirname=src
 
 [ignore]
 .*/node_modules/styled-components/src/.*
+.*/node_modules/@babel/helper-define-polyfill-provider/.*
+.*/node_modules/fbjs/lib/keyMirrorRecursive.js.flow
 flow-typed/*.js
