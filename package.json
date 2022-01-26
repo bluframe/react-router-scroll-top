@@ -36,8 +36,8 @@
     "jest-cli": "^21.2.1",
     "prettier": "^1.14.3",
     "prettier-eslint": "^8.2.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-router-dom": "^4.2.2",
     "react-test-renderer": "^16.1.1",
     "rollup": "^0.66.6",
@@ -64,5 +64,6 @@
     "scroll restoration",
     "scroll",
     "scroll to top"
-  ]
+  ],
+  "packageManager": "yarn@3.1.1"
 }
