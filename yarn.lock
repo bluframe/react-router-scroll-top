@@ -6687,9 +6687,9 @@ __metadata:
   linkType: hard
 
 "qs@npm:~6.4.0":
-  version: 6.4.0
-  resolution: "qs@npm:6.4.0"
-  checksum: 83518c41a710af2dc998e31013557aaade5cbff10d93a6cad16aa42454db53d448648ad395d1ca83aef54f14032be9ae31041d76d740295d4e77168fa37a0224
+  version: 6.4.1
+  resolution: "qs@npm:6.4.1"
+  checksum: d05cb45a9a25310aeb03190ff65f43b19a7dd7e06b2fd688a8317b74f69c1031adff9925fa8bc93b68ed350cd58b1ac72f956241ec7693b6267f8a7bb1883f9c
   languageName: node
   linkType: hard
 
